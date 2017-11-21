@@ -1,0 +1,44 @@
+body {
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  -moz-osx-font-smoothing: grayscale;
+  --webkit-font-smoothing: antialiased;
+}
+
+nav {
+  margin: 100px 0;
+  text-align: center;
+}
+
+nav a {
+  border-right: solid 1px #ddd;
+  color: #555;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  margin-right: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+nav a strong {
+  color: #222;
+  font-weight: 700;
+}
+
+nav a:last-child {
+  border-right: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 1.3;
+}
+
+h1 strong {
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
