@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" href="/index.css" />
     <link rel="manifest" href="/manifest.manifest" />
+    <link rel="prefetch" href="/design/" />
+    <link rel="prefetch" href="/technology/" />
+    <link rel="prefetch" href="/about/" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="black" />
@@ -18,10 +21,10 @@
         </g>
       </svg>
       <nav>
-        <strong>Home</strong>
-        <a href="/design">Design</a>
-        <a href="/technology">Technology</a>
-        <a href="/about">About</a>
+        <a href="/">Home</a>
+        <a href="/design/">Design</a>
+        <a href="/technology/">Technology</a>
+        <a href="/about/">About</a>
       </nav>
     </header>
     {{ block "main" . }}
