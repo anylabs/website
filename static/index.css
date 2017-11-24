@@ -24,8 +24,8 @@ header svg {
 
 nav.menu {
   flex: 1;
-  margin-left: 50px;
-  padding-bottom: 4px;
+  margin-left: 60px;
+  padding-bottom: 6px;
 }
 
 nav.menu a,
@@ -61,7 +61,7 @@ nav.social a {
   background-repeat: no-repeat;
   display: block;
   font-size: 0;
-  margin-left: 15px;
+  margin-left: 20px;
   opacity: 0.5;
 }
 
