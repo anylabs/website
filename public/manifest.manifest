@@ -1,4 +1,6 @@
 {
+  "background_color": "rgb(20, 30, 40)",
+  "display": "minimal-ui",
   "name": "Anylabs",
   "short_name": "Anylabs",
   "theme_color": "#000000"
